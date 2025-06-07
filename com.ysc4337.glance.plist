@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.yourname.glance</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/opt/glance/glance</string>
+      <string>--config</string>
+      <string>/opt/glance/glance.yml</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>WorkingDirectory</key>
+    <string>/opt/glance</string>
+
+    <key>StandardOutPath</key>
+    <string>/var/log/glance.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/var/log/glance.err.log</string>
+  </dict>
+</plist>
+

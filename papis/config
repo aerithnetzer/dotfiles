@@ -1,0 +1,14 @@
+[settings]
+default-library = AerithLibrary
+
+[AerithLibrary]
+dir = /Users/ysc4337/warlock/papis-library
+opentool = sioyek
+editor = nvim
+use-git = True
+notes-name = notes.tex
+database-backend = papis
+bibtex-unicode = False
+ref-format = {doc[title]:.15} {doc[author]:.6} {doc[year]}
+multiple-authors-format = {au[family]}, {au[given]}
+citations-file-name = citations.yaml

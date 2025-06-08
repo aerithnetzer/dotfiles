@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.ysc4337.glance</string>
+    <string>com.yourname.glance</string>
 
     <key>ProgramArguments</key>
     <array>
@@ -14,10 +15,10 @@
     </array>
 
     <key>RunAtLoad</key>
-    <true />
+    <true/>
 
     <key>KeepAlive</key>
-    <true />
+    <true/>
 
     <key>WorkingDirectory</key>
     <string>/opt/glance</string>

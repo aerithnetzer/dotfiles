@@ -4,13 +4,12 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.ysc4337.glance</string>
+    <string>com.ysc4337.papis</string>
 
     <key>ProgramArguments</key>
     <array>
-      <string>/opt/glance/glance</string>
-      <string>--config</string>
-      <string>/opt/glance/glance.yml</string>
+      <string> export PATH="$HOME/.local/bin:$PATH" </string>
+      <string> exec papis serve </string>
     </array>
 
     <key>RunAtLoad</key>
@@ -19,14 +18,11 @@
     <key>KeepAlive</key>
     <true />
 
-    <key>WorkingDirectory</key>
-    <string>/opt/glance</string>
-
     <key>StandardOutPath</key>
-    <string>/var/log/glance.out.log</string>
+    <string>/var/log/papis.out.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/var/log/glance.err.log</string>
+    <string>/var/log/papis.err.log</string>
   </dict>
 </plist>
 

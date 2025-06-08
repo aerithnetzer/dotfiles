@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>org.papis.serve</string>
+    <string>com.aerith.papis</string>
 
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/ysc4337/bin/run-papis-serve.sh</string>
+      <string>/opt/start_papis.sh</string>
     </array>
 
     <key>RunAtLoad</key>
@@ -17,8 +18,9 @@
     <true />
 
     <key>StandardOutPath</key>
-    <string>/tmp/papis-serve.out</string>
+    <string>/var/log/papis.out.log</string>
+
     <key>StandardErrorPath</key>
-    <string>/tmp/papis-serve.err</string>
+    <string>/var/log/papis.err.log</string>
   </dict>
 </plist>
